@@ -302,7 +302,8 @@ PRODUCT_PACKAGES += \
 # Filesystem management tools
 PRODUCT_PACKAGES += \
     make_ext4fs \
-    e2fsck \
+    #what is e2fsck?
+#    e2fsck \
     resize2fs \
     setup_fs
 
@@ -345,7 +346,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.qc.sub.rdump.on=1 \
     persist.sys.qc.sub.rdump.max=20 \
     wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15
+    wifi.supplicant_scan_interval=60
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -413,7 +414,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Enable KSM by default
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ksm.default=1
+    ro.ksm.default=0
 
 # NFC build properties
 PRODUCT_PROPERTY_OVERRIDES += \
