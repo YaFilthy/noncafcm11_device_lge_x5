@@ -248,6 +248,7 @@ vendor/firmware/libpn547_fw.so
 
 # Other
 vendor/lib/libQSEEComAPI.so
+#i found my pp!
 bin/mm-pp-daemon
 vendor/lib/libmm-abl-oem.so
 vendor/lib/libmm-abl.so
